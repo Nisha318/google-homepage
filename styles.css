@@ -2,47 +2,64 @@ body{
   font-family: Helvetica, sans-serif;
 }
 
-.nav-bar{ 
+.nav-bar-container{
 float: right;
-line-height: 100px;
-padding-right: 50px;
-vertical-align: top;
+}
 
-}
-.whitespace{
+.nav-bar{
   height: 70px;
-  }
-.logo-container{
-  float: middle;
-  line-height: 300px;
-  padding-left: 450px;
-  padding-bottom: 5px;
 }
-.logo-container img{
+
+.logo-container{
+ 
+  line-height: 300px;
+  padding-left: 400px;
+  padding-top: 100px;
   width: 400px;
   height: 200px;
   vertical-align: middle;
+
   
 }
 
 .search-container{
-   float: top;
-  line-height: 20px;
-  padding-left: 575px;
-  padding-top: 5px;
+  margin: 30px auto;
+  width: 620px;
+  padding-left: 200px;
 }
 
+.search-container input{
+  padding: 2px;
+}
+
+.search-container .search-bar{
+  font-size: 24px;
+  line-height: 34px;
+  width: 446px;
+ 
+  border: 1px solid gray;
+}
+
+
 .search-buttons{
-float: middle;
+
   line-height: 20px;
-  padding-left: 550px;
+  padding-left: 575px;
   padding-top: 20px
 
 }
 
 .footer-text{
   font-family: arial;
-  color: red;
   text-align: center;
   padding-top: 10px;
+}
+
+element.style {
+}
+.fbar {
+  font-size: small;
+}
+.fbar {
+  margin-left: -27px;
 }
