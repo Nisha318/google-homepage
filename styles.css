@@ -53,6 +53,11 @@ nav#header{
     
 }
 
+small{
+    float: right;
+    font-weight: bold;
+    color: purple;
+}
 
 #container{
     
